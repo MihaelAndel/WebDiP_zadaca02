@@ -182,6 +182,7 @@ article {
   color: black;
   margin: 0 10px 20px 10px;
   vertical-align: top;
+  transition: 0.2s ease-in-out;
 }
 
 article:hover {
@@ -275,6 +276,8 @@ p {
 a {
   color: rgb(163, 34, 34);
   font-family: "Courier New", Courier, monospace;
+  transition: 0.1s ease-in-out;
+  text-decoration: none;
 }
 
 figure {
