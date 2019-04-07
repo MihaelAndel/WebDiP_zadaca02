@@ -2,6 +2,7 @@
   from {
     background-color: white;
   }
+
   to {
     background-color: rgb(100, 0, 0);
   }
@@ -11,6 +12,7 @@
   from {
     top: -100px;
   }
+
   to {
     top: 0px;
   }
@@ -21,6 +23,7 @@
     border-radius: 100px;
     width: 0%;
   }
+
   to {
     border-radius: 0px;
     width: 100%;
@@ -31,6 +34,7 @@
   from {
     padding: 100px 0 100px 0;
   }
+
   to {
     padding: 0px;
   }
@@ -40,6 +44,7 @@
   from {
     height: 0px;
   }
+
   to {
     height: 80px;
   }
@@ -51,12 +56,14 @@
     margin-bottom: 100px;
     background-color: rgb(204, 26, 236)
   }
+
   to {
     margin: 0px;
   }
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -196,7 +203,8 @@ form {
   margin-bottom: 30px;
 }
 
-form input, button {
+form input,
+button {
   display: block;
   margin: 5px auto 5px auto;
 }
@@ -224,7 +232,8 @@ td+td {
   float: left;
 }
 
-input[type="radio"], input[type="radio"]+span {
+input[type="radio"],
+input[type="radio"]+span {
   float: left;
 }
 
@@ -268,6 +277,10 @@ a {
   font-family: "Courier New", Courier, monospace;
 }
 
+figure {
+  text-align: center;
+}
+
 #podnozje {
   font-family: "Calibri light";
   width: 100%;
@@ -286,7 +299,8 @@ a {
   top: 100px;
 }
 
-#podnozje.registracija, #podnozje.multimedija {
+#podnozje.registracija,
+#podnozje.multimedija {
   position: relative;
   top: 150px;
 }
@@ -296,7 +310,8 @@ a {
   top: 180px;
 }
 
-#podnozje p, address {
+#podnozje p,
+address {
   vertical-align: top;
   display: inline-block;
 }
@@ -305,7 +320,8 @@ a {
   color: #ffffff;
 }
 
-a:active, a:visited {
+a:active,
+a:visited {
   color: rgb(184, 126, 60);
 }
 
@@ -390,7 +406,8 @@ table.popis {
   border-collapse: collapse;
 }
 
-table.popis td, table.popis th {
+table.popis td,
+table.popis th {
   border: 1px solid black;
   float: none;
 }
@@ -399,6 +416,7 @@ table.popis th {
   font-size: 20px;
 }
 
-table.popis td:hover, table.popis th:hover {
+table.popis td:hover,
+table.popis th:hover {
   background-color: rgb(255, 200, 200);
 }
