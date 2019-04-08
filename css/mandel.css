@@ -323,13 +323,12 @@ address {
   color: #ffffff;
 }
 
-a:active,
 a:visited {
   color: rgb(184, 126, 60);
 }
 
 a:hover {
-  color: brown;
+  color: rgb(255, 115, 115);
 }
 
 hr {
